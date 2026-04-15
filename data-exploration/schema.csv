@@ -1,0 +1,109 @@
+Resource,Column,Example,Many
+Endpoint,resourceType,Endpoint,
+Endpoint,id,Endpoint-4415de89-9982-495e-8203-d68f62d14211,
+Endpoint,meta - lastUpdated,2026-04-09T11:48:37.471494Z,
+Endpoint,extension - endpoint rank,1,
+Endpoint,extension - verification status,"{'coding': [{'system': 'http://hl7.org/fhir/us/ndh/CodeSystem/NdhVerificationStatusCS', 'code': 'complete', 'display': 'Complete'}]}",
+Endpoint,status,active,
+Endpoint,connectionType - system,http://terminology.hl7.org/CodeSystem/endpoint-connection-type,
+Endpoint,connectionType - code,hl7-fhir-rest,
+Endpoint,connectionType - display,HL7 FHIR,
+Endpoint,name,Endpoint 4415de89-9982-495e-8203-d68f62d14211,
+Endpoint,managingOrganization - reference,Organization/Organization-1598826224,
+Endpoint,address,https://app.meldrx.com/api/fhir/imedicware_gec,
+Endpoint,payloadType - coding,"[{'system': 'http://terminology.hl7.org/CodeSystem/data-absent-reason', 'version': '1.0.0', 'code': 'not-applicable'}]",True
+Location,resourceType,Location,
+Location,id,Location-00027f84-7a91-44f9-9db4-43a310c090d3,
+Location,meta - lastUpdated,2026-04-09T02:21:02.180097Z,
+Location,status,active,
+Location,name,2212 UN RD,
+Location,description,2212 UN RD,
+Location,mode,instance,
+Location,address - line,"['2212 UN RD', 'STE 700 PMB 507']",
+Location,address - city,GASTONIA,
+Location,address - state,NC,
+Location,address - postalCode,28054,
+Location,address - country,US,
+Location,address - type,physical,
+Location,position - longitude,-81.16945,
+Location,position - latitude,35.23194,
+Location,managingOrganization - reference,Organization/Organization-1154644433,
+Organization,resourceType,Organization,
+Organization,id,Organization-000095bc-229b-405c-8fd6-d32f3cecc85d,
+Organization,meta - lastUpdated,2026-04-09T11:53:28.008656Z,
+Organization,extension - verification status,"{'coding': [{'system': 'http://hl7.org/fhir/us/ndh/CodeSystem/NdhVerificationStatusCS', 'code': 'complete', 'display': 'Complete'}]}",
+Organization,identifier - type,"{'coding': [{'system': 'http://terminology.hl7.org/CodeSystem/v2-0203', 'code': 'NPI', 'display': 'National Provider Identifier'}]}",True
+Organization,identifier - system,http://terminology.hl7.org/NamingSystem/npi,True
+Organization,identifier - use,official,True
+Organization,identifier - value,1952843948,True
+Organization,active,True,
+Organization,type - text,ein,True
+Organization,name,BEYOND BASICS SALONS INC,
+Organization,telecom - system,phone,True
+Organization,telecom - value,9104520072,True
+Organization,telecom - use,practice,True
+Organization,address - line,"['1124 FLORAL PKWY', 'N']",True
+Organization,address - city,WILMINGTON,True
+Organization,address - state,NC,True
+Organization,address - postalCode,28403,True
+Organization,address - country,US,True
+Organization,address - type,physical,True
+Organization,address - use,work,True
+Organization,contact - purpose,"{'coding': [{'system': 'http://terminology.hl7.org/CodeSystem/contactentity-type', 'code': 'ADMIN', 'display': 'Administrative'}], 'text': 'Administrative'}",True
+Organization,contact - name,"{'prefix': [], 'given': ['KENDALL'], 'family': 'FUQUA', 'suffix': [], 'use': 'official'}",True
+Organization,contact - telecom,[],True
+Organization,endpoint,,
+OrganizationAffiliation,resourceType,OrganizationAffiliation,
+OrganizationAffiliation,id,OrganizationAffiliation-1a9a2194-0d0a-456f-981d-caa85ed1d645,
+OrganizationAffiliation,meta - lastUpdated,2026-04-09T11:49:32.363831Z,
+OrganizationAffiliation,active,True,
+OrganizationAffiliation,organization - reference,Organization/Organization-b245012a-c04b-4ce0-a34e-f951a020947f,
+OrganizationAffiliation,participatingOrganization - reference,Organization/Organization-1780925990,
+OrganizationAffiliation,code - coding,"[{'system': 'http://hl7.org/fhir/organization-role', 'code': 'member', 'display': 'Member'}]",True
+OrganizationAffiliation,code - text,Member,True
+Practitioner,resourceType,Practitioner,
+Practitioner,id,Practitioner-1003000332,
+Practitioner,meta - lastUpdated,2026-04-09T11:51:15.872574Z,
+Practitioner,extension - cms enrollment in good standing,False,
+Practitioner,extension - cms ial2 verified,False,
+Practitioner,extension - aligned with cms data network,False,
+Practitioner,extension - enrollment validated,False,
+Practitioner,identifier - type,"{'coding': [{'system': 'http://terminology.hl7.org/CodeSystem/v2-0203', 'code': 'NPI', 'display': 'National Provider Identifier'}]}",True
+Practitioner,identifier - system,http://terminology.hl7.org/NamingSystem/npi,True
+Practitioner,identifier - use,official,True
+Practitioner,identifier - value,1003000332,True
+Practitioner,identifier - period,{'start': '2007-08-29T00:00:00Z'},True
+Practitioner,active,True,
+Practitioner,name - prefix,[],True
+Practitioner,name - given,"['ESTHER', 'Y']",True
+Practitioner,name - family,THACH,True
+Practitioner,name - suffix,[],True
+Practitioner,name - use,official,True
+Practitioner,telecom - system,phone,True
+Practitioner,telecom - value,4157598536,True
+Practitioner,telecom - use,practice,True
+Practitioner,address - line,"['2690 38TH AVE', 'N']",True
+Practitioner,address - city,SAN FRANCISCO,True
+Practitioner,address - state,CA,True
+Practitioner,address - postalCode,94116,True
+Practitioner,address - country,US,True
+Practitioner,address - type,physical,True
+Practitioner,address - use,work,True
+Practitioner,gender,female,
+Practitioner,qualification - code,"{'coding': [{'system': 'http://nucc.org/provider-taxonomy', 'code': '171M00000X', 'display': 'Case Manager/Care Coordinator'}], 'text': 'Case Manager/Care Coordinator'}",True
+Practitioner,communication,,
+PractitionerRole,resourceType,PractitionerRole,
+PractitionerRole,id,PractitionerRole-00008a30-5b57-4b53-b86e-f783ae69fbd7,
+PractitionerRole,meta - lastUpdated,2026-04-09T11:50:56.821928Z,
+PractitionerRole,extension - newpatients,True,
+PractitionerRole,active,True,
+PractitionerRole,practitioner - reference,Practitioner/Practitioner-1427155027,
+PractitionerRole,organization - reference,Organization/Organization-1518732023,
+PractitionerRole,specialty - coding,"[{'system': 'https://www.cms.gov/files/document/acceptable-physician-specialty-types-py-2025.pdf', 'code': '14-77', 'display': 'PRACTITIONER - VASCULAR SURGERY'}]",True
+PractitionerRole,specialty - text,PRACTITIONER - VASCULAR SURGERY,True
+PractitionerRole,location - reference,Location/Location-84b971d6-be1f-4fce-add8-3a5ddc3755c6,True
+PractitionerRole,telecom - system,phone,True
+PractitionerRole,telecom - value,4693417800,True
+PractitionerRole,telecom - use,practice,True
+PractitionerRole,period,,
+PractitionerRole,endpoint,,
