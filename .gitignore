@@ -1,0 +1,15 @@
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
+.env
+.env.test
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Scratch Folder
+scratch/

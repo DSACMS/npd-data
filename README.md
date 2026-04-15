@@ -1,9 +1,9 @@
-# {{ cookiecutter.project_name }}
+# npd-data
 
-{{ cookiecutter.project_description }}
+The purpose of this repo is to explore and understand the data that were released at [directory.cms.gov](https://directory.cms.gov) as part of the April 9th release. 
 
 ## About the Project
-<!-- TODO: Write an about statement for this project. -->
+This is a personal exploration of the data that were released at [directory.cms.gov](https://directory.cms.gov) as part of the April 9th release, so that I can better understand what was included in that release. The code and results may be helpful in allowing team members or others to also understand the data that were released.
 
 ### Project Vision
 <!-- TODO: What is the vision for this project? -->
@@ -12,10 +12,10 @@
 <!-- TODO: Write a mission statement for this project. -->
 
 ### Agency Mission
-<!-- TODO: Must include since this is an agency-led project -->
+The Centers for Medicare and Medicaid Services (CMS) provides health coverage to more than 100 million people through Medicare, Medicaid, the Children’s Health Insurance Program, and the Health Insurance Marketplace. The CMS seeks to strengthen and modernize the Nation’s health care system, to provide access to high quality care and improved health at lower costs.
 
 ### Team Mission
-<!-- TODO: Must include since this is an agency-led project -->
+This effort is an offshoot of my participation on the National Prodiver Directory (NPD) team at CMS. The NPD team is a cross-functional team of product managers, designers, and software engineers, who are working together to improve the provider experience at CMS.
 
 ## Core Team
 
@@ -101,7 +101,7 @@ Thank you for considering contributing to an Open Source project of the US Gover
 
 ## Community
 
-The {{ cookiecutter.project_name }} team is taking a community-first and open source approach to the product development of this tool. We believe government software should be made in the open and be built and licensed such that anyone can download the code, run it themselves without paying money to third parties or using proprietary software, and use it as they will.
+The npd-data team is taking a community-first and open source approach to the product development of this tool. We believe government software should be made in the open and be built and licensed such that anyone can download the code, run it themselves without paying money to third parties or using proprietary software, and use it as they will.
 
 We know that we can learn from a wide variety of communities, including those who will use or will be impacted by the tool, who are experts in technology, or who have experience with similar technologies deployed in other spaces. We are dedicated to creating forums for continuous conversation and feedback to help shape the design and development of the tool.
 
